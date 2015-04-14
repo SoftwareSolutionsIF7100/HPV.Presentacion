@@ -1,0 +1,158 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="base.master.cs" Inherits="HPV.Presentacion._base" %>
+
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Pura Vida</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="cphScripts" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+
+    <!--header starts-->
+    <div class="header">
+        <!--TopMenu Section-->
+        <asp:ContentPlaceHolder ID="cphTopMenu" runat="server">
+            <div class="top-header">
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" /></a>
+                    </div>
+                    <span class="menu"></span>
+                    <div class="m-clear"></div>
+                    <div class="top-menu">
+                        <ul>
+                            <li class="active"><a href="index.html">INICIO</a></li>
+                            <li><a class="scroll" href="facilities.html">FACILIDADES</a></li>
+                            <li><a class="scroll" href="restaurant.html">RESTAURANTE</a></li>
+                            <li><a class="scroll" href="conference.html">CONFERENCE</a></li>
+                            <li><a class="scroll" href="booking.html">BOOKING</a></li>
+                            <li><a class="scroll" href="contact.html">CONTACT US</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>        
+        <!---->
+
+        <!--Banner Section-->
+        <asp:ContentPlaceHolder ID="cphBanner" runat="server">
+            <div class="banner">
+                <div class="banner-info text-center">
+                    <h3>
+                        <label>Hello,</label>
+                        You've Reached</h3>
+                    <h1>HOTEL PURA VIDA</h1>
+                    <span></span>
+                    <ul>
+                        <li><a class="scroll" href="#">HOTEL</a><i class="line"></i></li>
+                        <li><a class="scroll" href="#">SPA SALOON</a><i class="line2"></i></li>
+                        <li><a class="scroll" href="#">FINE DINING</a></li>
+                        <div class="clearfix"></div>
+                    </ul>
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>
+        <!---->       
+    </div>
+    <!---->
+
+    <!--Reservation Form Section-->
+    <asp:ContentPlaceHolder ID="cphReservationForm" runat="server">
+        <div class="online_reservation">
+            <div class="b_room">
+                <div class="booking_room">
+                    <div class="reservation">
+                        <ul>
+                            <li class="span1_of_1 left">
+                                <h5>Arrival</h5>
+                                <div class="book_date">
+                                    <form>
+                                        <input class="date" id="datepicker" type="text" value="2/08/2013" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '2/08/2013';}">
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="span1_of_1 left">
+                                <h5>Depature</h5>
+                                <div class="book_date">
+                                    <form>
+                                        <input class="date" id="datepicker1" type="text" value="22/08/2013" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '22/08/2013';}">
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="span1_of_1">
+                                <h5>Room type</h5>
+                                <!----------start section_room----------->
+                                <div class="section_room">
+                                    <select id="country" onchange="change_country(this.value)" class="frm-field required">
+                                        <option value="null">Standard Single Room</option>
+                                        <option value="null">Suite room</option>
+                                        <option value="AX">Single room</option>
+                                        <option value="AX">Double room</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="span1_of_3">
+                                <div class="date_btn">
+                                    <form>
+                                        <input type="submit" value="View Prices" />
+                                    </form>
+                                </div>
+                            </li>
+                            <div class="clearfix"></div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </asp:ContentPlaceHolder>    
+    <!---->
+
+    <!--Center Form Section-->
+    <asp:ContentPlaceHolder ID="cphCenter" runat="server">
+        
+    </asp:ContentPlaceHolder>   
+    <!---->
+
+
+    
+    <!--TopFotter Form Section-->    
+    <asp:ContentPlaceHolder ID="cphTopFotter" runat="server">
+
+    </asp:ContentPlaceHolder>        
+    <!---->
+
+    <div class="fotter-info">
+        <div class="container">
+            
+        </div>        
+    </div>
+    <!---->
+
+</body>
+</html>
