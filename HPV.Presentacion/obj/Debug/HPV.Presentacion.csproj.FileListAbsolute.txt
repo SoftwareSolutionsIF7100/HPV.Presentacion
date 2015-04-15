@@ -3,3 +3,8 @@ c:\users\kevin\documents\visual studio 2012\Projects\HPV.Presentacion\HPV.Presen
 c:\users\kevin\documents\visual studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.csprojResolveAssemblyReference.cache
 c:\users\kevin\documents\visual studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.dll
 c:\users\kevin\documents\visual studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.pdb
+C:\Users\Mago\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\bin\HPV.Presentacion.dll
+C:\Users\Mago\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\bin\HPV.Presentacion.pdb
+C:\Users\Mago\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Mago\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.dll
+C:\Users\Mago\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.pdb
