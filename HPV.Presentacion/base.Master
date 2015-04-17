@@ -16,15 +16,70 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
     <link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
     <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="../js/jquery.min.js"></script>
 
     <asp:ContentPlaceHolder ID="cphHead" runat="server">
-
+        <link rel="shortcut icon" href="../images/favicon.png" type="image/png" />
+        <link href="../css/owl.carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/jquery-ui.css" />
+        <link type="text/css" rel="stylesheet" href="../css/JFGrid.css" />
+        <link type="text/css" rel="stylesheet" href="../css/JFFormStyle-1.css" />
+        <script type="text/javascript" src="../js/JFCore.js"></script>
+        <script type="text/javascript" src="../js/JFForms.js"></script>
+        <script src="../js/jquery-ui.js"></script>
+        <script src="../js/owl.carousel.js"></script>
     </asp:ContentPlaceHolder>
 
     <asp:ContentPlaceHolder ID="cphScripts" runat="server">
+            <script>
+                $("span.menu").click(function () {
+                    $(".top-menu ul").slideToggle(200);
+                });
+    </script>
 
+    <script type="text/javascript">
+        (function () {
+            JC.init({
+                domainKey: ''
+            });
+        })();
+    </script>
+
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                items: 1,
+                lazyLoad: true,
+                autoPlay: true,
+                navigation: true,
+                navigationText: false,
+                pagination: false,
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $("#datepicker,#datepicker1").datepicker();
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                items: 1,
+                lazyLoad: true,
+                autoPlay: true,
+                navigation: true,
+                navigationText: false,
+                pagination: false,
+            });
+        });
+    </script>
     </asp:ContentPlaceHolder>
 
 </head>
@@ -50,13 +105,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <li><a class="scroll" href="#">TARIFAS</a></li>
                             <li><a class="scroll" href="#">RESERVAR EN LINEA</a></li>
                             <li><a class="scroll" href="#">CONTACTENOS</a></li>
+                            <li><a class="scroll" href="#">LOGIN</a></li>
                         </ul>
-                        
+
                     </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
-        </asp:ContentPlaceHolder>        
+        </asp:ContentPlaceHolder>
         <!---->
 
         <!--Banner Section-->
@@ -64,20 +120,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="banner">
                 <div class="banner-info text-center">
                     <h3>
-                        <label>Hello,</label>
-                        You've Reached</h3>
-                    <h1>HOTEL PUERTO VIEJO</h1>
+                        <label>Hola,</label>
+                        Bienvenidos
+                    </h3>
+                    <h1 id="nombreHotel">HOTEL PUERTO VIEJO</h1>
                     <span></span>
                     <ul>
                         <li><a class="scroll" href="#">HOTEL</a><i class="line"></i></li>
-                        <li><a class="scroll" href="#">SPA SALOON</a><i class="line2"></i></li>
-                        <li><a class="scroll" href="#">FINE DINING</a></li>
+                        <li><a class="scroll" href="#">TARIFAS</a><i class="line2"></i></li>
+                        <li><a class="scroll" href="#">SOBRE NOSOTROS</a></li>
                         <div class="clearfix"></div>
                     </ul>
                 </div>
             </div>
         </asp:ContentPlaceHolder>
-        <!---->       
+        <!---->
     </div>
     <!---->
 
@@ -89,7 +146,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="reservation">
                         <ul>
                             <li class="span1_of_1 left">
-                                <h5>Arrival</h5>
+                                <h5>LLegada</h5>
                                 <div class="book_date">
                                     <form>
                                         <input class="date" id="datepicker" type="text" value="2/08/2013" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '2/08/2013';}">
@@ -97,7 +154,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </div>
                             </li>
                             <li class="span1_of_1 left">
-                                <h5>Depature</h5>
+                                <h5>Salida</h5>
                                 <div class="book_date">
                                     <form>
                                         <input class="date" id="datepicker1" type="text" value="22/08/2013" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '22/08/2013';}">
@@ -105,12 +162,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </div>
                             </li>
                             <li class="span1_of_1">
-                                <h5>Room type</h5>
+                                <h5>Tipo de habitación</h5>
                                 <!----------start section_room----------->
                                 <div class="section_room">
                                     <select id="country" onchange="change_country(this.value)" class="frm-field required">
-                                        <option value="null">Standard Single Room</option>
-                                        <option value="null">Suite room</option>
+                                        <option value="null">Standard</option>
+                                        <option value="null">Junior</option>
                                         <option value="AX">Single room</option>
                                         <option value="AX">Double room</option>
                                     </select>
@@ -119,7 +176,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <li class="span1_of_3">
                                 <div class="date_btn">
                                     <form>
-                                        <input type="submit" value="View Prices" />
+                                        <input type="submit" value="Ver precios" />
                                     </form>
                                 </div>
                             </li>
@@ -130,24 +187,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="clearfix"></div>
             </div>
         </div>
-    </asp:ContentPlaceHolder>    
+    </asp:ContentPlaceHolder>
     <!---->
 
     <!--Center Form Section-->
     <asp:ContentPlaceHolder ID="cphCenter" runat="server">
-        
-    </asp:ContentPlaceHolder>   
+    </asp:ContentPlaceHolder>
     <!---->
 
 
-    
-    <!--TopFotter Form Section-->    
+
+    <!--TopFotter Form Section-->
     <asp:ContentPlaceHolder ID="cphTopFotter" runat="server">
-
-    </asp:ContentPlaceHolder>        
+    </asp:ContentPlaceHolder>
     <!---->
 
-  
+
     <!---->
 
 </body>

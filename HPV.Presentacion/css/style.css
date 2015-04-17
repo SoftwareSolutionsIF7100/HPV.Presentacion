@@ -58,6 +58,7 @@ font-weight: 200;
 }
 .top-menu{
 float:right;
+margin-right: -2em;
 }
 .top-menu ul li {
 display:inline-block;
@@ -1629,6 +1630,7 @@ left: 74%;
 .banner {
 min-height: 250px;
 padding: 2em 0;
+
 }
 .online_reservation {
 top: 43%;
