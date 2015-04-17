@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Servicios" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/HPV.Core.Dominio" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicios_modificarHotel_InputMessage">
+    <wsdl:part name="parameters" element="tns:modificarHotel" />
+  </wsdl:message>
+  <wsdl:message name="IServicios_modificarHotel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modificarHotelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicios_obtenerDireccion_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerDireccion" />
+  </wsdl:message>
+  <wsdl:message name="IServicios_obtenerDireccion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerDireccionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicios_validarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:validarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicios_validarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:validarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicios">
+    <wsdl:operation name="modificarHotel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicios/modificarHotel" message="tns:IServicios_modificarHotel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicios/modificarHotelResponse" message="tns:IServicios_modificarHotel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerDireccion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicios/obtenerDireccion" message="tns:IServicios_obtenerDireccion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicios/obtenerDireccionResponse" message="tns:IServicios_obtenerDireccion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="validarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicios/validarUsuario" message="tns:IServicios_validarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicios/validarUsuarioResponse" message="tns:IServicios_validarUsuario_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicios" type="tns:IServicios">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="modificarHotel">
+      <soap:operation soapAction="http://tempuri.org/IServicios/modificarHotel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerDireccion">
+      <soap:operation soapAction="http://tempuri.org/IServicios/obtenerDireccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicios/validarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Servicios">
+    <wsdl:port name="BasicHttpBinding_IServicios" binding="tns:BasicHttpBinding_IServicios">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
