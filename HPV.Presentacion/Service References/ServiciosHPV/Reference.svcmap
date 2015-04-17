@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="edf03568-a0e3-4073-8b0f-58d8f10e34d1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="662c774f-c82e-4c98-a850-d112f0f49f3d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,10 @@
     <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="9bee8397-82ce-4f84-af7b-7bbe95ddc5d4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="0bdc6115-1085-42e0-aec5-0fea83791df1" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="bbf66eab-e072-4a8e-84d2-42767dd28647" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/mex" />
-    <MetadataFile FileName="HPV.Core.Dominio.xsd" MetadataType="Schema" ID="d1c70e87-e6b5-4a26-9b1a-92cd0932f5ee" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="2d4e5395-9baa-4235-8b96-82f8001063c4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="bc6e77f8-6811-4ebf-8dd6-4af7ca0e98f4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="13dafb4f-8ca7-4b38-8a7c-c4679a806bbc" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/mex" />
+    <MetadataFile FileName="HPV.Core.Dominio.xsd" MetadataType="Schema" ID="775d0e3e-c1f4-4acb-8c17-f69389b1b28e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Servicios/Service1/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

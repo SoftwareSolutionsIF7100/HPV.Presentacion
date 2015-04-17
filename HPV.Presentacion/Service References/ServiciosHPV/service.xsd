@@ -27,6 +27,20 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="modificarDireccion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/HPV.Core.Dominio" minOccurs="0" name="direccion" nillable="true" type="q3:Direccion" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modificarDireccionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="modificarDireccionResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="validarUsuario">
     <xs:complexType>
       <xs:sequence>
@@ -38,7 +52,7 @@
   <xs:element name="validarUsuarioResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/HPV.Core.Dominio" minOccurs="0" name="validarUsuarioResult" nillable="true" type="q3:Usuario" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/HPV.Core.Dominio" minOccurs="0" name="validarUsuarioResult" nillable="true" type="q4:Usuario" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

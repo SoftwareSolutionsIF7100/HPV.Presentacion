@@ -143,18 +143,20 @@
     <Content Include="js\owl.carousel.js" />
     <Content Include="js\responsiveslides.min.js" />
     <Content Include="restaurant.html" />
-    <Content Include="Service References\HPV.Services\configuration91.svcinfo" />
-    <Content Include="Service References\HPV.Services\configuration.svcinfo" />
-    <Content Include="Service References\HPV.Services\HPV.Presentacion.HPV.Services.Direccion.datasource">
+    <Content Include="Service References\ServiciosHPV\configuration91.svcinfo" />
+    <Content Include="Service References\ServiciosHPV\configuration.svcinfo" />
+    <Content Include="Service References\ServiciosHPV\HPV.Presentacion.ServiciosHPV.Direccion.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Service References\HPV.Services\HPV.Presentacion.HPV.Services.Usuario.datasource">
+    <Content Include="Service References\ServiciosHPV\HPV.Presentacion.ServiciosHPV.Usuario.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Service References\HPV.Services\Reference.svcmap">
+    <Content Include="Service References\ServiciosHPV\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
+    <Content Include="vista_administrador\administrar_paginas.aspx" />
+    <Content Include="vista_administrador\maps.aspx" />
     <Content Include="vista_usuario\inicio_usuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -167,10 +169,24 @@
       <DependentUpon>base.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\HPV.Services\Reference.cs">
+    <Compile Include="Service References\ServiciosHPV\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="vista_administrador\administrar_paginas.aspx.cs">
+      <DependentUpon>administrar_paginas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vista_administrador\administrar_paginas.aspx.designer.cs">
+      <DependentUpon>administrar_paginas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vista_administrador\maps.aspx.cs">
+      <DependentUpon>maps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vista_administrador\maps.aspx.designer.cs">
+      <DependentUpon>maps.aspx</DependentUpon>
     </Compile>
     <Compile Include="vista_usuario\inicio_usuario.aspx.cs">
       <DependentUpon>inicio_usuario.aspx</DependentUpon>
@@ -183,14 +199,14 @@
   <ItemGroup>
     <Content Include="images\Thumbs.db" />
     <Content Include="base.Master" />
-    <None Include="Service References\HPV.Services\HPV.Core.Dominio.xsd">
+    <None Include="Service References\ServiciosHPV\HPV.Core.Dominio.xsd">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="Service References\HPV.Services\service.wsdl" />
-    <None Include="Service References\HPV.Services\service.xsd">
+    <Content Include="Service References\ServiciosHPV\service.wsdl" />
+    <None Include="Service References\ServiciosHPV\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\HPV.Services\service1.xsd">
+    <None Include="Service References\ServiciosHPV\service1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Web.Debug.config">
@@ -200,14 +216,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="vista_administrador\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\HPV.Services\" />
+    <WCFMetadataStorage Include="Service References\ServiciosHPV\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

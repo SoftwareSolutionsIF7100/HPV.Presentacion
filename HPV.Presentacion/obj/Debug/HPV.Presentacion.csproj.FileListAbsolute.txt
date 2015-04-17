@@ -13,3 +13,8 @@ E:\Documentos\GitHub\HPV.Presentacion\HPV.Presentacion\bin\HPV.Presentacion.pdb
 E:\Documentos\GitHub\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.csprojResolveAssemblyReference.cache
 E:\Documentos\GitHub\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.dll
 E:\Documentos\GitHub\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.pdb
+C:\Users\Gustavo\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.dll
+C:\Users\Gustavo\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\obj\Debug\HPV.Presentacion.pdb
+C:\Users\Gustavo\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\bin\HPV.Presentacion.dll
+C:\Users\Gustavo\Documents\Visual Studio 2012\Projects\HPV.Presentacion\HPV.Presentacion\bin\HPV.Presentacion.pdb
