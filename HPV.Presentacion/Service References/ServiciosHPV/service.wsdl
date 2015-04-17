@@ -19,6 +19,12 @@
   <wsdl:message name="IServicios_obtenerDireccion_OutputMessage">
     <wsdl:part name="parameters" element="tns:obtenerDireccionResponse" />
   </wsdl:message>
+  <wsdl:message name="IServicios_modificarDireccion_InputMessage">
+    <wsdl:part name="parameters" element="tns:modificarDireccion" />
+  </wsdl:message>
+  <wsdl:message name="IServicios_modificarDireccion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modificarDireccionResponse" />
+  </wsdl:message>
   <wsdl:message name="IServicios_validarUsuario_InputMessage">
     <wsdl:part name="parameters" element="tns:validarUsuario" />
   </wsdl:message>
@@ -33,6 +39,10 @@
     <wsdl:operation name="obtenerDireccion">
       <wsdl:input wsaw:Action="http://tempuri.org/IServicios/obtenerDireccion" message="tns:IServicios_obtenerDireccion_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IServicios/obtenerDireccionResponse" message="tns:IServicios_obtenerDireccion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modificarDireccion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicios/modificarDireccion" message="tns:IServicios_modificarDireccion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicios/modificarDireccionResponse" message="tns:IServicios_modificarDireccion_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="validarUsuario">
       <wsdl:input wsaw:Action="http://tempuri.org/IServicios/validarUsuario" message="tns:IServicios_validarUsuario_InputMessage" />
@@ -52,6 +62,15 @@
     </wsdl:operation>
     <wsdl:operation name="obtenerDireccion">
       <soap:operation soapAction="http://tempuri.org/IServicios/obtenerDireccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modificarDireccion">
+      <soap:operation soapAction="http://tempuri.org/IServicios/modificarDireccion" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

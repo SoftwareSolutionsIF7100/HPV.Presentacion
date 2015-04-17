@@ -44,13 +44,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="m-clear"></div>
                     <div class="top-menu">
                         <ul>
-                            <li class="active"><a href="#">INICIO</a></li>
+                            <li class="active"><a href="../vista_usuario/inicio_usuario.aspx">INICIO</a></li>
                             <li><a class="scroll" href="#">SOBRE NOSOTROS</a></li>
                             <li><a class="scroll" href="#">FACILIDADES</a></li>
                             <li><a class="scroll" href="#">¿COMO LLEGAR?</a></li>
                             <li><a class="scroll" href="#">TARIFAS</a></li>
                             <li><a class="scroll" href="#">RESERVAR EN LINEA</a></li>
                             <li><a class="scroll" href="#">CONTACTENOS</a></li>
+                            <li><a class="scroll" href="../vista_administrador/login.aspx">LOGIN</a></li>
                         </ul>
                         
                     </div>
