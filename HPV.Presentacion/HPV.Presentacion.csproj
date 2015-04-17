@@ -62,12 +62,15 @@
     <Content Include="booking.html" />
     <Content Include="conference.html" />
     <Content Include="contact.html" />
+    <Content Include="css\basic.css" />
     <Content Include="css\bootstrap.css" />
+    <Content Include="css\galleriffic-3.css" />
     <Content Include="css\JFFormStyle-1.css" />
     <Content Include="css\jquery-ui.css" />
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\style.css" />
     <Content Include="details.html" />
+    <Content Include="example-3.html" />
     <Content Include="facilities.html" />
     <Content Include="images\1.jpg" />
     <Content Include="images\1A.jpg" />
@@ -137,9 +140,14 @@
     <Content Include="index.html" />
     <Content Include="js\JFCore.js" />
     <Content Include="js\JFForms.js" />
+    <Content Include="js\jquery-1.3.2.js" />
     <Content Include="js\jquery-ui.js" />
     <Content Include="js\jquery.flexisel.js" />
+    <Content Include="js\jquery.galleriffic.js" />
+    <Content Include="js\jquery.history.js" />
     <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.opacityrollover.js" />
+    <Content Include="js\jush.js" />
     <Content Include="js\owl.carousel.js" />
     <Content Include="js\responsiveslides.min.js" />
     <Content Include="restaurant.html" />
@@ -158,6 +166,7 @@
     <Content Include="vista_administrador\administrar_paginas.aspx" />
     <Content Include="vista_administrador\maps.aspx" />
     <Content Include="vista_usuario\inicio_usuario.aspx" />
+    <Content Include="vista_usuario\sobre_nosotros_usuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -194,6 +203,13 @@
     </Compile>
     <Compile Include="vista_usuario\inicio_usuario.aspx.designer.cs">
       <DependentUpon>inicio_usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vista_usuario\sobre_nosotros_usuario.aspx.cs">
+      <DependentUpon>sobre_nosotros_usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vista_usuario\sobre_nosotros_usuario.aspx.designer.cs">
+      <DependentUpon>sobre_nosotros_usuario.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
