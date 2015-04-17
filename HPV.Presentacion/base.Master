@@ -38,18 +38,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="container">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="images/logo.png" /></a>
+                            <img src="../images/logotipo.png" /></a>
                     </div>
                     <span class="menu"></span>
                     <div class="m-clear"></div>
                     <div class="top-menu">
                         <ul>
-                            <li class="active"><a href="index.html">INICIO</a></li>
-                            <li><a class="scroll" href="facilities.html">FACILIDADES</a></li>
-                            <li><a class="scroll" href="restaurant.html">RESTAURANTE</a></li>
-                            <li><a class="scroll" href="conference.html">CONFERENCE</a></li>
-                            <li><a class="scroll" href="booking.html">BOOKING</a></li>
-                            <li><a class="scroll" href="contact.html">CONTACT US</a></li>
+                            <li class="active"><a href="#">INICIO</a></li>
+                            <li><a class="scroll" href="#">SOBRE NOSOTROS</a></li>
+                            <li><a class="scroll" href="#">FACILIDADES</a></li>
+                            <li><a class="scroll" href="#">¿COMO LLEGAR?</a></li>
+                            <li><a class="scroll" href="#">TARIFAS</a></li>
+                            <li><a class="scroll" href="#">RESERVAR EN LINEA</a></li>
+                            <li><a class="scroll" href="#">CONTACTENOS</a></li>
                         </ul>
                         
                     </div>
@@ -66,7 +67,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <h3>
                         <label>Hello,</label>
                         You've Reached</h3>
-                    <h1>HOTEL PURA VIDA</h1>
+                    <h1>HOTEL PUERTO VIEJO</h1>
                     <span></span>
                     <ul>
                         <li><a class="scroll" href="#">HOTEL</a><i class="line"></i></li>
@@ -147,11 +148,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </asp:ContentPlaceHolder>        
     <!---->
 
-    <div class="fotter-info">
-        <div class="container">
-            
-        </div>        
-    </div>
+  
     <!---->
 
 </body>

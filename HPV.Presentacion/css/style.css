@@ -82,9 +82,14 @@ color:#fff;
 border-top:2px solid #FFD700;
 }
 .banner{
-background:#00CCFF;
+/**background:#00CCFF;
 min-height:300px;
-padding:2em 0 4em 0;
+padding:2em 0 4em 0; **/
+background: url("../images/Principal3.JPG") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .banner-info h3{
 color:#fff;
