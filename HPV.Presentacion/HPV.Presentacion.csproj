@@ -163,8 +163,8 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
-    <Content Include="vista_administrador\administrar_paginas.aspx" />
-    <Content Include="vista_administrador\maps.aspx" />
+    <Content Include="vista_administrador\inicio_administrador.aspx" />
+    <Content Include="vista_administrador\login.aspx" />
     <Content Include="vista_usuario\inicio_usuario.aspx" />
     <Content Include="vista_usuario\sobre_nosotros_usuario.aspx" />
     <Content Include="Web.config" />
@@ -183,19 +183,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="vista_administrador\administrar_paginas.aspx.cs">
-      <DependentUpon>administrar_paginas.aspx</DependentUpon>
+    <Compile Include="vista_administrador\inicio_administrador.aspx.cs">
+      <DependentUpon>inicio_administrador.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="vista_administrador\administrar_paginas.aspx.designer.cs">
-      <DependentUpon>administrar_paginas.aspx</DependentUpon>
+    <Compile Include="vista_administrador\inicio_administrador.aspx.designer.cs">
+      <DependentUpon>inicio_administrador.aspx</DependentUpon>
     </Compile>
-    <Compile Include="vista_administrador\maps.aspx.cs">
-      <DependentUpon>maps.aspx</DependentUpon>
+    <Compile Include="vista_administrador\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="vista_administrador\maps.aspx.designer.cs">
-      <DependentUpon>maps.aspx</DependentUpon>
+    <Compile Include="vista_administrador\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="vista_usuario\inicio_usuario.aspx.cs">
       <DependentUpon>inicio_usuario.aspx</DependentUpon>
