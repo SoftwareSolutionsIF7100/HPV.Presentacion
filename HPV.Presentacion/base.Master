@@ -39,7 +39,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--header starts-->
     <div class="header">
         <!--TopMenu Section-->
-        <asp:ContentPlaceHolder ID="cphTopMenu" runat="server">
             <div class="top-header">
                 <div class="container">
                     <div class="logo">
@@ -63,7 +62,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="clearfix"></div>
                 </div>
             </div>
-        </asp:ContentPlaceHolder>
         <!---->
 
         <!--Banner Section-->
