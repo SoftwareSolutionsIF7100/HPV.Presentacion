@@ -5,7 +5,7 @@
     <div class="package text-center">
         <div class="container">
             <br /><br />
-            <h3 id="nombreTipoHotel">Hotel De Playa</h3>
+            <h3 id="nombreTipoHotel">Hotel</h3>
             <p id="contenidoPrincipal">
                Hotel Puerto Viejo esta localizado en las playas del Océano Atlántico de la provincia de Limón y posee una playa paradisíaca para los amantes del mar. Dentro de una exótica flora y fauna se encuentra un pueblo costero con unas playas maravillosas de agua azul cristalina y con sorprendentes oportunidades para el surfing. Rápidamente se ha convertido en uno de los primeros puntos turísticos calientes de Costa Rica, muchos sufistas internacionales de todo el mundo vienen a las famosas olas de Salsa Brava, haciendo de este pueblo Caribe el sitio “mas visitado” en Limón.
                Es conocido simplemente como Puerto Viejo por los locales y no debe confundirse con Puerto Viejo de Sarapiqui en Heredia. Este activo pueblo esta a 34 millas al sureste de Puerto Limón y a 102 millas al sur de Cahuita. Puerto Viejo con su encanto único era antiguamente un caserío pequeño y tranquilo de pescadores.
