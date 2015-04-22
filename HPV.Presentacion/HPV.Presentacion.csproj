@@ -165,6 +165,7 @@
     </Content>
     <Content Include="vista_administrador\inicio_administrador.aspx" />
     <Content Include="vista_administrador\login.aspx" />
+    <Content Include="vista_usuario\faciliades_usuario.aspx" />
     <Content Include="vista_usuario\inicio_usuario.aspx" />
     <Content Include="vista_usuario\sobre_nosotros_usuario.aspx" />
     <Content Include="Web.config" />
@@ -196,6 +197,13 @@
     </Compile>
     <Compile Include="vista_administrador\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vista_usuario\faciliades_usuario.aspx.cs">
+      <DependentUpon>faciliades_usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vista_usuario\faciliades_usuario.aspx.designer.cs">
+      <DependentUpon>faciliades_usuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="vista_usuario\inicio_usuario.aspx.cs">
       <DependentUpon>inicio_usuario.aspx</DependentUpon>
